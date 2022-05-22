@@ -1,0 +1,133 @@
+@import 'var';
+@import 'mixin';
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+// header :start
+.container{
+    max-width: 1280px;
+    margin: auto;
+  
+}
+.c{
+    margin-bottom: 10px;
+}
+
+.headerclass
+{
+    @include flex;
+    margin-top: 25px;
+  
+}
+.header-left{
+   &-date{
+       margin-top: 20px;
+       margin-left: -010px;
+   }
+    &-bars
+    {
+        .bar1,.bar2,.bar3
+        {
+      width: 30px;
+      height: 4px;
+      background-color: $g;
+      margin: 6px 0px;
+      transition: 0.4s;
+        }
+
+    }
+  
+}
+.change{
+    .bar1{
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+    .bar2{
+        opacity: 0;
+    }
+    .bar3{
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+}
+.header-middle{
+
+    img{
+        width: 280px;
+        margin-left: -50px;
+    }
+}
+.header-right{
+    &-icons{
+        i{
+          font-size: 30px; 
+          margin-left: 5px;       
+        }
+    }
+    &-news{
+     margin-top: 15px;
+    }
+}
+// header :end
+// ***************************************************************************************
+// nav :start
+.wrapper{
+    border-bottom: 2px solid rgba(219, 31, 31, 1);
+    border-top: 1px solid $c;
+    
+   }
+.navigation{
+   li{
+    display: inline-block;
+    list-style: none;
+    padding: 8px 12px;
+    a{
+        text-decoration: none;
+        color:  #020202;
+    }
+    a:hover{
+        color: rgba(219, 31, 31, 1);
+    }
+   }
+}
+// nav :end
+// ***********************************************************
+// advertise1 start////
+  .advertise1{
+      margin-top: 20px;
+      text-align: center;
+  img{
+        max-width: 1200px;
+       
+    }
+}
+// addvertise1 :end///
+
+// **********************************************************
+// mainhead :start//
+.mainhead{
+    text-align: center;
+    margin-top: 70px;
+
+    &-title{
+        font-size: 40px;
+    }
+    &-subtitle{
+        color: $l-g;
+        font-size: 12px;
+        line-height: 40px;
+    }
+    &-figcaption{
+          width: 90%;
+          margin: auto;
+          padding-top: 10px;
+          line-height: 30px;
+         }
+         &-link{
+             text-decoration: none;
+             color: $b;
+         }
+    }
+// mainhead close
+

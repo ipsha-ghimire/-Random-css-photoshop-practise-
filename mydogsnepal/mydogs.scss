@@ -1,0 +1,365 @@
+// <!--header start-->
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+// loader section
+#loader{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999;
+  background: #fff url('https://i.pinimg.com/originals/36/13/47/36134745bc78c10e92e89d1158e3548c.gif' )no-repeat center;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+
+   
+}
+.bgg{
+  background: #17265F;
+  
+  padding:4px 0px;
+}
+.w{
+  width: 37%;
+  height: 33%;
+}
+.mr{
+  margin-left: auto;
+  margin-right: 30px;
+}
+.nav-link{
+  color: white;
+  font-size: 15px;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0px 20px;
+
+}
+.nav-link:hover{
+  color:#FF3514;
+}
+.navbar-collapse{
+  text-align: center;
+}
+.bi-list{
+  color: white;
+  font-size: 35px;
+}
+
+// <!--background layer start-->
+.myimg{
+    background-image: url("/images/dogs1.webp");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // object-fit: cover;
+    background-position:top;
+
+
+
+}   
+.container-fluid{
+    padding: 0;
+}
+.mycon{
+    position: relative;
+}
+.slogans{
+    max-width: 600px;
+  position: absolute;
+  top: 64px;
+  left: 8px;
+    p{
+        opacity: 0.6;
+        color: #FF3514;
+        padding-left: 30px;
+        // padding-top: 30px;
+        font-size: 20px;
+        font-weight:bolder;
+        text-shadow:  2px 1px 2px white;
+      
+    }
+    h1{
+        color: #FF3514;
+        padding-left: 30px;
+        font-weight: 800;
+        font-size: 75px;
+        margin-top: -5px;
+        padding-left: 20px;
+        text-shadow:  2px 1px 2px white;
+        
+
+    }
+}
+// <!--background layer end-->
+// button :start
+
+div[class*=box] {
+    height: 33.33%;
+    width: 23%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .box-1 { 
+      background: #233167;}
+      //background-color: #FF6766; 
+  .btn {
+    line-height: 38px;
+    height: 50px;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+  }
+  .btn-one {
+    color: #FFF;
+    transition: all 0.3s;
+    position: relative;
+  }
+  .btn-one span {
+    transition: all 0.3s;
+    font-weight: bolder;
+    letter-spacing: 2.5px;
+    // color: green;
+  }
+  .btn-one::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgba(255,255,255,0.5);
+    border-bottom-color: rgba(255,255,255,0.5);
+    transform: scale(0.1, 1);
+  }
+  .btn-one:hover span {
+    letter-spacing: 2px;
+    color: white;
+  }
+  .btn-one:hover::before {
+    opacity: 1; 
+    transform: scale(1, 1); 
+  }
+  .btn-one::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: rgba(255,255,255,0.1);
+    opacity: 0.6;
+    
+  }
+  .btn-one:hover::after {
+    opacity: 0; 
+    transform: scale(0.1, 1);
+  }
+  // heading section :start
+.homedemo{
+  color: #FF3514;
+  font-weight: bold;
+  font-size: 20px;
+}
+.homeh1{
+  color: #17265F;
+  font-weight: bold;
+}
+.homep1{
+  font-size: 15px;
+  color: gray;
+  opacity: 0.7;
+  font-weight: 500;
+}
+.fontt{
+  font-size: 25px;
+  color:#FF3514;
+  font-weight :600px;
+}
+  // <!--heading section end-->
+
+// gallery section :start//
+.card-img, .card-img-top {
+  max-height: 233px;
+  object-fit: cover;}
+
+// gallery section :end//
+// counter section :start///
+.colorr{
+  background-color: chocolate;
+}
+.fo h2{
+  font-size: 40px;
+}
+// counter section :end///
+// <!-- some works of ours section start -->
+   .sliderdiv {
+     text-align: center;
+     border: 2px;
+     margin: 10px;
+   
+   
+   }
+   .sliderdiv p{
+     padding-top: 10px;
+     text-transform: uppercase;
+     font-weight: 700;
+     letter-spacing: 4px;
+     font-size: 15px;
+     color: #17265F;
+   }
+.myfirstca img{
+  max-width: 300px;
+  margin: auto;
+   height: 250px;
+   object-fit: cover;
+   box-shadow: 3px 3px 8px rgb(99, 98, 98)  ;
+}
+.ourworktitle{
+  font-size: 50px;
+  font-weight: 700;
+  color: #17265F;
+  letter-spacing: 1.5px;
+  padding: 20px 0px;
+}
+// <!-- some works of ours section end -->
+// <!-- contact us section start -->
+.contact{
+  color: #17265F;
+  font-size: 45px;
+  // opacity: 0.7;
+  text-transform: capitalize;
+  font-weight: 700;
+  letter-spacing: 3px;
+  word-spacing: 4px;
+ opacity: 0.95;
+
+}
+#exampleFormControlInput1{
+  height: 50px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-top: 10px;
+}
+#exampleFormControlTextarea1{
+height: 150px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+}
+
+.labell {
+  // color: white;
+  color: #17265F;
+
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}
+iframe{
+  display: block;
+}
+.bk{
+ margin-top: 40px;
+ background: #F2F3F4;
+}
+.mybtnn{
+  height: 41px;
+  width: 109px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+.sliderdiv img {
+  width:250px;
+  height: 200px;
+  
+}
+// <!-- contact us section end -->
+// .pattern{
+//   position:relative;
+//   // background-color:#fdc69e;
+//   background-color: #17265F;
+ 
+//   height:85vh;
+// }
+// .layer{
+//     position: absolute;
+//     bottom: 0;
+//     left: 0;
+//     width: 100%;
+//     overflow: hidden;
+//     line-height: 0;
+// }
+
+// .layer svg {
+//     position: relative;
+//     display: block;
+//     width: calc(100% + 1.3px);
+//     height: 171px;
+// }
+
+// .layer .shape-fill {
+//     fill: #FFFFFF;
+// }
+.card-img-top
+{
+  height: 70vh;
+}
+@media screen and (max-width:410px)
+{
+  .navbar-toggler {
+    margin-left:auto ;
+    margin-top: -40px;
+  }
+}
+@media screen and (max-width:570px){
+  .slogans{
+    
+    p{
+    font-size: 20px;
+    }
+    h1{
+      font-size: 55px;
+      font-weight: 700;
+      line-height: 60px;
+      margin-bottom: 20px;
+    }
+    .text{
+      font-size: 10px;
+      
+    }
+  
+  }
+  .btn-one{
+    width: 450px;
+    
+  }
+.sliderdiv{
+   img{
+  height: 126px;
+   }
+   p{
+     font-size: 10px;
+   }
+}
+
+
+}

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mydogsnepal</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!-- owl carosel ko  hamro css bhanda mathi -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- aos animation ko css -->
+
+    <link rel="stylesheet" href="css/mydogs.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- counter ko lagi yo 3links jquery wala -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body onload='loadingloader()'>
+<!-- loader section start -->
+<div id="loader"></div>
+
+<!-- loader section end-- -->
+
+    <!--  navbar start -->
+    <nav class="navbar navbar-expand-md bgg">
+        <a class="navbar-brand" href="#"><img src="./images/Logo_white_text-1.svg" class="w ms-3" alt=""
+                srcset=""></a>
+        <button class="navbar-toggler " onclick="this.blur();" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation"><i class="bi bi-list"></i></button>
+        <!-- -bs- rakhnu parne raicha toogle garna and this.blur le highlight hataidincha tyo toogle btn bata -->
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Introduction <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">OurWorks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Campaign</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- navbar end-- -->
+    <!-- ************************************************************************************************************************** -->
+
+    <!--background layer start-->
+    <div class="container-fluid mycon ">
+
+        <div class="myimg ">
+            <div class="slogans">
+                <p data-aos="fade-right"  data-aos-duration="700" >Bridge that Gap with animals.</p>
+                <h1  data-aos="fade-right"  data-aos-duration="1500" data-aos-delay="550" >Voice for the Voiceless </h1>
+                <div class="box-1" data-aos="fade-right"  data-aos-duration="1000" data-aos-delay="600"  >
+                    <div class="btn btn-one" >
+                        <span class="text">Read More</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--background layer end-->
+    <!-- ********************************************************************************************************* -->
+
+    <!--heading section start-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center mx-auto">
+                <p class="homedemo pt-5">OUR MISSION</p>
+                <h1 class="homeh1">Standing up for Animals since 2000</h1>
+                <p class="homep1 pt-1">Building an ecosystem where Animals and Humans share Harmony</p>
+            </div>
+        </div>
+
+        <div class="row pt-3">
+            <div class="col-md-4 text-center fontt"><i class="bi bi-check-circle-fill"></i>Population Management</div>
+            <div class="col-md-4 text-center fontt"><i class="bi bi-check-circle-fill"></i>Welfare Projects</div>
+            <div class="col-md-4 text-center fontt"><i class="bi bi-check-circle-fill"></i>Free Campaigns</div>
+        </div>
+    </div>
+    <!--heading section end-->
+    <!-- !-- ********************************************************************************************************* -->
+
+    <!--gallery section start-->
+    <div class="container">
+        <div class="row pt-5 ">
+            <div class="col-md-4  px-1 p1">
+                <div class="card mx-auto" data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-offset="140" data-aos-duration="1000">
+                
+                    <img class="card-img-top" src="images/doggallery1.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Adoption</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4  px-1">
+                <div class="card mx-auto "data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-offset="140" data-aos-duration="1000" data-aos-delay="100"
+                >
+                    <img class="card-img-top" src="images/doggallery2.jpeg" alt="Card image cap" >
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Nuturing</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4  px-1">
+                <div class="card mx-auto" data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-offset="140" data-aos-duration="1000" data-aos-delay="140">
+                    <img class="card-img-top" src="images/doggallery3.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Day Care</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row pt-5 ">
+            <div class="col-md-4  px-1 p1">
+                <div class="card mx-auto"  data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-offset="140" data-aos-duration="1000" data-aos-delay="200">
+                    <img class="card-img-top" src="images/doggallery4.jpeg" alt="Card image cap" >
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Training</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 px-1">
+                <div class="card text-center mx-auto" ; data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-offset="140" data-aos-duration="1000" 
+               >
+                    <img class="card-img-top" src="./images/doggallery5.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Mental illness</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4  px-1">
+                <div class="card mx-auto"  data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-offset="140" data-aos-duration="1000"  data-aos-delay="200">
+                    <img class="card-img-top" src="images/doggallery6.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Diesase and Malnutrition</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--gallery section end-->
+    <!-- !-- ********************************************************************************************************* -->
+
+    <!-- counter section :start -->
+
+    <section class="counts-section ">
+        <h1 class="mx-auto d-table my-5  text-secondary">Our Achievement</h1>
+        <div class="colorr py-5 text-white py-5 ">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-3  col-6  text-center">
+                        <h2 data-toggle="counterUp">100</h2>
+                        <!-- before  use garera plus halne -->
+                        <h6>Clients</h6>
+                    </div>
+                    <div class="col-lg-3 col-6 text-center ">
+                        <h2 data-toggle="counterUp">45</h2>
+                        <h6>Projects</h6>
+                    </div>
+                    <div class="col-lg-3 col-6 text-center">
+                        <h2 data-toggle="counterUp">800</h2>
+                        <h6>Hours Of Support</h6>
+                    </div>
+                    <div class="col-lg-3 col-6 text-center">
+                        <h2 data-toggle="counterUp">90</h2>
+                        <h6>Hard Workers</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  counter section :end -->
+    <!-- !-- ********************************************************************************************************* -->
+
+    <!-- what we do title section start -->
+    <div class="container ">
+        <div class="row ">
+            <div class="col-md-6 text-center mx-auto mt-5">
+                <h1 class="ourworktitle"data-aos="zoom-in" data-aos-offset="300">Some Of Our Works</h1>
+            </div>
+        </div>
+    </div>
+    <!-- what we do title section end -->
+
+    <!-- ***************************************************************************************************************** -->
+
+    <!-- some works of ours section start -->
+
+    <div class="container">
+        <div class="owl-carousel myfirstca my-5">
+            <div class="sliderdiv">
+                <img src="images/doggallery1.jpeg"  alt="dog1">
+                <p>care</p>
+            </div>
+            <div class="sliderdiv">
+                <img src="images/doggallery2.jpeg" alt="dog1">
+                <p>foster</p>
+            </div>
+            <div class="sliderdiv">
+                <img src="images/doggallery3.jpeg" alt="dog1">
+                <p>adopt</p>
+            </div>
+            <div class="sliderdiv">
+                <img src="images/doggallery4.jpeg" alt="dog1">
+                <p>campaign</p>
+            </div>
+            <div class="sliderdiv">
+                <img src="images/doggallery5.jpg" alt="dog1">
+                <p>vaccination</p>
+            </div>
+        </div>
+    </div>
+    <!-- some works of ours section end -->
+
+    <!-- ***************************************************************************************************************** -->
+
+    <!-- contact us section start -->
+    <div class="container-fluid ">
+        <h1 class="text-center py-3 contact">Contact us</h1>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.6935787119974!2d85.35117391438429!3d27.695864032604923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1987e98b0f89%3A0xced0875ae11510dc!2sKathmandu%20Medical%20College!5e0!3m2!1sen!2snp!4v1640000196697!5m2!1sen!2snp"
+            height="400" style="border:0;" allowfullscreen="" loading="lazy " class="w-100"></iframe>
+    </div>
+        <div class="container-fluid bk">
+            <form>
+                <div class="form-group text-center ">
+                    <label for="exampleFormControlInput1 " class="h3  mt-5 mb-3 labell" data-aos="fade-right" data-aos-offset="200" data-aos-duration="2000" >Your email address</label>
+                    <input type="email" class="form-control w-50 mx-auto" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="form-group text-center">
+                    <label for="exampleFormControlTextarea1" class="h3 mt-5 mb-3 labell mx-auto" data-aos="fade-left" data-aos-offset="200" data-aos-duration="2000" >Your Queries</label>
+                    <textarea class="form-control w-50 mx-auto" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </form>
+            <div class="text-center mt-3">
+                <button type="button" class="btn mybtnn btn-primary btn-sm ">Submit</button>
+            </div>
+        </div>
+        <!-- <div class="layer">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+            </svg>
+        </div> -->
+    <!-- </div> -->
+    <!-- contact us section end -->
+    <!-- *************************************************THE END**************************************************************** -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- aos ko script tag -->
+    <script src="js/mydogs.js"></script>
+
+</body>
+
+</html>
